@@ -44,9 +44,9 @@ axios.interceptors.response.use(async response => {
                 toast.error(data);
             }
             break;
-        /* case 401:
-            //toast.error('unauthorized');
-            break; */
+        case 401:
+            history.push('/');
+            break;
         case 404:
             history.push('/not-found');
             break;
