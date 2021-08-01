@@ -56,5 +56,5 @@ export default class UserStore{
         } catch (error) {
             throw error;
         }
-    } 
+    }
 }
