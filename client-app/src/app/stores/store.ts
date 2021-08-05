@@ -19,7 +19,7 @@ export const store:Store = {
     commonStore: new CommonStore(),
     userStore: new UserStore(),
     modalStore: new ModalStore(),
-    profileStore: new ProfileStore()
+    profileStore: new ProfileStore(),
 }
 
 export const StoreContext = createContext(store);
